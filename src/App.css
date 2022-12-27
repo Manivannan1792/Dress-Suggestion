@@ -1,0 +1,124 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .dress-specs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dress-container {
+    width: 340px;
+    height: min-content;
+  }
+  
+  .dress-image {
+    width: 340px;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .dress-name {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .dress-summary {
+    margin-top: 0;
+  }
+  
+  .dress-color {
+    font-size: 18px;
+  }
+  
+  .dress-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+  }
+  
+  .dress-detail-container {
+    max-width: 800px;
+  }
+  .add-dress-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .route-container {
+    padding: 24px 12px;
+  }
+  .App {
+    margin: 0;
+    padding: 0;
+  }
+  .user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .not-found {
+    width:50%;
+    height:70vh;
+  }
+  
+  .add-color{
+    display:flex;
+    justify-content:center;
+    margin-bottom:10px
+
+  }
+  
+  .color-button{
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    border-radius: 20px;
+    width: 130px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #3bb19b;
+   	color: white;
+    cursor: pointer;
+    margin:10px;
+  }
+  .home{
+    background-image:url("https://media.istockphoto.com/vectors/black-dress-on-red-hanger-vector-id1331839686?k=20&m=1331839686&s=612x612&w=0&h=DINhPc52THh-CSjX7Aqc-pjiunmPL20fiBCMpv07Jak=");
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100vh;
+    width:100%;
+    padding:0;
+    margin-left:50px;
+    margin-bottom:50px;
+
+  }
+
+  .header{
+    border:4px solid teal;
+    border-radius:4rem;
+    width:30%;
+    padding:10px;
+    padding-left:20px;
+    height:45px;
+    font-family:'Brush Script MT',cursive;
+  }
+
+
+  .content{
+    margin:10px;
+    display:grid;
+    row-gap:30px;
+    font-size:18px;
+    font-weight:bold;
+    font-family:'Brush Script MT',cursive;
+  }
+
+  .All-content{
+    padding-top:30px;
+    margin-right:40px;
+  }
